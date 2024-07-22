@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2021-07-17 12:10">
+    <shop>
+        <name>Клиника инновационных медицинских технологий Вектор</name>
+        <company>Клиника инновационных медицинских технологий Вектор</company>
+        <url>https://cimtvector.ru</url>
+        <email>info@cimtvector.ru</email>
+        <picture>https://static.tildacdn.com/tild6339-3232-4433-a261-363165386634/logo.jpg</picture>
+        <description>Каталог врачей</description>
+        <currencies>
+          <currency id="RUR" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Врач</category>
+        </categories>
+
+        <sets>
+		<set id="khirurg">
+                <name>Хирург</name>
+                <url>https://cimtvector.ru/laz_hirurgi#5</url>
+            </set>
+            <set id="khirurg">
+                <name>Врач-косметолог</name>
+                <url>https://cimtvector.ru/cosm#5</url>
+            </set>
+			<set id="kosmetolog-estetist">
+                <name>косметолог-эстетист</name>
+                <url>https://cimtvector.ru/cosm#4</url>
+            </set>
+            <set id="dermato-onkolog">
+                <name>Дерматолог-онколог</name>
+                <url>https://cimtvector.ru/cosm#3</url>
+            </set>
+			            <set id="dermatolog">
+                <name>Дерматолог</name>
+                <url>https://cimtvector.ru/cosm#2</url>
+            </set>
+			<set id="dermatokosmetolog">
+                <name>Дерматокосметолог</name>
+                <url>https://cimtvector.ru/cosm#1</url>
+            </set>
+			<set id="flebolog">
+                <name>Флеболог</name>
+                <url>https://cimtvector.ru/laz_hirurgi#4</url>
+            </set>
+			<set id="sosudistiy-kherurg">
+                <name>Cосудистый хирург</name>
+                <url>https://cimtvector.ru/laz_hirurgi#3</url>
+            </set>
+			<set id="kosmetolog">
+                <name>Косметолог</name>
+                <url>https://cimtvector.ru/cosm</url>
+            </set>
+			<set id="MOHS-khirurg">
+                <name>MOHS-хирург</name>
+                <url>https://cimtvector.ru/laz_hirurgi#1</url>
+            </set>
+			<set id="rp-khirurg">
+                <name>Реконструктивно-пластический хирург</name>
+                <url>https://cimtvector.ru/laz_hirurgi#2</url>
+            </set>
+			<set id="laser-khirurg">
+                <name>Лазерный хирург</name>
+                <url>https://cimtgradient.ru/laser_surgery</url>
+            </set>
+        </sets>
+        <offers>
+            <!--
+                Оффер для врача - это связка "Врач"-"Клиника"-"Тип приема".
+                При наличии у врача нескольких офферов нужно предоставить каждый из них отдельно.
+                В таком случае URL разных офферов одного врача должны различаться незначащим cgi-параметром ?offer-id=...
+
+            -->
+            <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
+            <offer id="bagdasaryan" group_id="1"> 
+                <name>Багдасарян Анна Александровна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://cimtvector.ru/bagdasaryan</url><!--URL карточки врача. -->
+                <price from="true">0</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>kosmetolog,dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild6664-3833-4334-b563-376331323032/-/resize/720x/-/format/webp/2.jpg</picture>
+                <description>Заведующая отделением лазерных методик, врач-дерматокосметолог, ведущий специалист по лазерным методикам, участник международных конференций и семинаров
+                </description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Багдасарян</param>
+                <param name="Имя">Анна</param>
+                <param name="Отчество">Александровна</param>
+                <param name="Годы опыта">14</param>
+                <param name="Начало карьеры">2010-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://cimtvector.ru/bagdasaryan</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">ул.Крупской, д.19/17</param>
+                <param name="Название клиники">Клиника инновационных медицинских технологий Вектор</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="dautova" group_id="1"> 
+                <name>Даутова Зарема Василевна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://cimtvector.ru/dautova</url><!--URL карточки врача. -->
+                <price from="true">0</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>kosmetolog, dermatokosmetolog, dermatolog</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
+                <description>Врач-дерматокосметолог, ведущий специалист по лазерным и инъекционным методикам, обучалась в Грузии, Чехии, Италии, Франции, Монако, участник международных конференций и семинаров
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Даутова</param>
+                <param name="Имя">Зарема</param>
+                <param name="Отчество">Василевна</param>
+                <param name="Годы опыта">19</param>
+                <param name="Начало карьеры">2005-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://cimtvector.ru/dautova</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">ул.Крупской, д.19/17</param>
+                <param name="Название клиники">Клиника инновационных медицинских технологий Вектор</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="kazakova" group_id="1"> 
+                <name>Казакова Мария Алексеевна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://cimtvector.ru/kazakova</url><!--URL карточки врача. -->
+                <price from="true">0</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>kosmetolog,dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
+                <description>Заведующая отделением нитевых технологий, врач-дерматокосметолог, ведущий специалист по нитевым технологиям, специалист по лазерным и инъекционным методикам, участник международных конференций и семинаров
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Казакова</param>
+                <param name="Имя">Мария</param>
+                <param name="Отчество">Алексеевна</param>
+                <param name="Годы опыта">19</param>
+                <param name="Начало карьеры">2005-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://cimtvector.ru/kazakova</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">ул.Крупской, д.19/17</param>
+                <param name="Название клиники">Клиника инновационных медицинских технологий Вектор</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="lebedev" group_id="1"> 
+                <name>Лебедев Валентин Валерьевич</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://cimtvector.ru/lebedev</url><!--URL карточки врача. -->
+                <price from="true">1000</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>dermato-onkolog, khirurg, dermato-onkolog, laser-khirurg</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
+                <description>Лазерный хирург, дерматоонколог, ведущий специалист по лазерной хирургии, член РОПРЭХ, участник международных конференций и семинаров
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Казакова</param>
+                <param name="Имя">Мария</param>
+                <param name="Отчество">Алексеевна</param>
+                <param name="Годы опыта">14</param>
+                <param name="Начало карьеры">2010-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://cimtvector.ru/lebedev</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">ул.Крупской, д.19/17</param>
+                <param name="Название клиники">Клиника инновационных медицинских технологий Вектор</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="pogorelko" group_id="1"> 
+                <name>Погорелко Елена Сергеевна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://cimtvector.ru/pogorelko</url><!--URL карточки врача. -->
+                <price from="true">1000</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>kosmetolog, dermatokosmetolog, dermatolog</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild3836-3333-4465-a666-363266343166/-/resize/720x/-/format/webp/1.png</picture>
+                <description>Врач-дерматокосметолог, ведущий специалист по лазерным и инъекционным методикам, участник международных конференций и семинаров, прошла кадавер-курс в Мальтийском университете, Амбассадор косметического бренда Meder в России, автор статей в журналах.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Погорелко</param>
+                <param name="Имя">Елена</param>
+                <param name="Отчество">Сергеевна</param>
+                <param name="Годы опыта">16</param>
+                <param name="Начало карьеры">2008-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://cimtvector.ru/pogorelko</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">ул.Крупской, д.19/17</param>
+                <param name="Название клиники">Клиника инновационных медицинских технологий Вектор</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="revin" group_id="1"> 
+                <name>Ревин Артем Андреевич</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://cimtvector.ru/revin</url><!--URL карточки врача. -->
+                <price from="true">1000</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>dermato-onkolog, khirurg, dermato-onkolog, laser-khirurg</set-ids> <!--специальности через запятую-->
+                <picture>https://optim.tildacdn.com/tild6133-3731-4133-b963-393530306335/-/resize/720x/-/format/webp/photo.jpg</picture>
+                <description>Заведующий отделением лазерной хирургии, лазерный хирург, дерматоонколог участник международных конференций и семинаров
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Ревин</param>
+                <param name="Имя">Артем</param>
+                <param name="Отчество">Андреевич</param>
+                <param name="Годы опыта">17</param>
+                <param name="Начало карьеры">2007-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://cimtvector.ru/revin</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">ул.Крупской, д.19/17</param>
+                <param name="Название клиники">Клиника инновационных медицинских технологий Вектор</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Онлайн-расписание">true</param>
+                <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
