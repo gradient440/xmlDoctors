@@ -80,7 +80,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kosmetolog,dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>kosmetolog, dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild6664-3833-4334-b563-376331323032/-/resize/720x/-/format/webp/2.jpg</picture>
                 <description>Заведующая отделением лазерных методик, врач-дерматокосметолог, ведущий специалист по лазерным методикам, участник международных конференций и семинаров
                 </description>
@@ -101,8 +101,8 @@
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Онлайн-расписание">true</param>
                 <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
-            </offer>
-			<offer id="dautova" group_id="1"> 
+            </offer>/offers>
+			<offers><offer id="dautova" group_id="1"> 
                 <name>Даутова Зарема Василевна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://cimtvector.ru/dautova</url><!--URL карточки врача. -->
@@ -131,8 +131,8 @@
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Онлайн-расписание">true</param>
                 <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
-            </offer>
-			<offer id="kazakova" group_id="1"> 
+            </offer></offers>
+			<offers><offer id="kazakova" group_id="1"> 
                 <name>Казакова Мария Алексеевна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://cimtvector.ru/kazakova</url><!--URL карточки врача. -->
@@ -140,7 +140,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kosmetolog,dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>kosmetolog, dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
                 <description>Заведующая отделением нитевых технологий, врач-дерматокосметолог, ведущий специалист по нитевым технологиям, специалист по лазерным и инъекционным методикам, участник международных конференций и семинаров
 				</description>
@@ -161,8 +161,8 @@
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Онлайн-расписание">true</param>
                 <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
-            </offer>
-			<offer id="lebedev" group_id="1"> 
+            </offer></offers>
+			<offers><offer id="lebedev" group_id="1"> 
                 <name>Лебедев Валентин Валерьевич</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://cimtvector.ru/lebedev</url><!--URL карточки врача. -->
@@ -191,8 +191,8 @@
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Онлайн-расписание">true</param>
                 <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
-            </offer>
-			<offer id="pogorelko" group_id="1"> 
+            </offer></offers>
+			<offers><offer id="pogorelko" group_id="1"> 
                 <name>Погорелко Елена Сергеевна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://cimtvector.ru/pogorelko</url><!--URL карточки врача. -->
@@ -221,8 +221,8 @@
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Онлайн-расписание">true</param>
                 <param name="Телефон для записи">+7 495 255-19-07</param> <!--Можно подменник аггрегатора-->
-            </offer>
-			<offer id="revin" group_id="1"> 
+            </offer></offers>
+			<offers><offer id="revin" group_id="1"> 
                 <name>Ревин Артем Андреевич</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://cimtvector.ru/revin</url><!--URL карточки врача. -->
