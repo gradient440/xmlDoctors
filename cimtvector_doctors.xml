@@ -19,49 +19,17 @@
                 <name>Хирург</name>
                 <url>https://cimtvector.ru/laz_hirurgi#5</url>
             </set>
-            <set id="khirurg">
-                <name>Врач-косметолог</name>
-                <url>https://cimtvector.ru/cosm#5</url>
-            </set>
-			<set id="kosmetolog-estetist">
-                <name>косметолог-эстетист</name>
-                <url>https://cimtvector.ru/cosm#4</url>
-            </set>
-            <set id="dermato-onkolog">
-                <name>Дерматолог-онколог</name>
+            <set id="onkolog">
+                <name>Онколог</name>
                 <url>https://cimtvector.ru/cosm#3</url>
             </set>
-			            <set id="dermatolog">
+	<set id="dermatolog">
                 <name>Дерматолог</name>
                 <url>https://cimtvector.ru/cosm#2</url>
-            </set>
-			<set id="dermatokosmetolog">
-                <name>Дерматокосметолог</name>
-                <url>https://cimtvector.ru/cosm#1</url>
-            </set>
-			<set id="flebolog">
-                <name>Флеболог</name>
-                <url>https://cimtvector.ru/laz_hirurgi#4</url>
-            </set>
-			<set id="sosudistiy-kherurg">
-                <name>Cосудистый хирург</name>
-                <url>https://cimtvector.ru/laz_hirurgi#3</url>
             </set>
 			<set id="kosmetolog">
                 <name>Косметолог</name>
                 <url>https://cimtvector.ru/cosm</url>
-            </set>
-			<set id="MOHS-khirurg">
-                <name>MOHS-хирург</name>
-                <url>https://cimtvector.ru/laz_hirurgi#1</url>
-            </set>
-			<set id="rp-khirurg">
-                <name>Реконструктивно-пластический хирург</name>
-                <url>https://cimtvector.ru/laz_hirurgi#2</url>
-            </set>
-			<set id="laser-khirurg">
-                <name>Лазерный хирург</name>
-                <url>https://cimtvector.ru/laz_hirurgi#6</url>
             </set>
         </sets>
         <offers>
@@ -80,7 +48,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kosmetolog, dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>kosmetolog,dermatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild6664-3833-4334-b563-376331323032/-/resize/720x/-/format/webp/2.jpg</picture>
                 <description>Заведующая отделением лазерных методик, врач-дерматокосметолог, ведущий специалист по лазерным методикам, участник международных конференций и семинаров
                 </description>
@@ -110,7 +78,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kosmetolog, dermatokosmetolog, dermatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>kosmetolog,dermatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
                 <description>Врач-дерматокосметолог, ведущий специалист по лазерным и инъекционным методикам, обучалась в Грузии, Чехии, Италии, Франции, Монако, участник международных конференций и семинаров
 				</description>
@@ -140,7 +108,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kosmetolog, dermatokosmetolog, kosmetolog-estetist, dermatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>kosmetolog,dermatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
                 <description>Заведующая отделением нитевых технологий, врач-дерматокосметолог, ведущий специалист по нитевым технологиям, специалист по лазерным и инъекционным методикам, участник международных конференций и семинаров
 				</description>
@@ -170,7 +138,7 @@
                 <oldprice>1000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>dermato-onkolog, khirurg, dermato-onkolog, laser-khirurg</set-ids> <!--специальности через запятую-->
+                <set-ids>onkolog,khirurg</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild3033-6364-4961-a232-376561366666/-/resize/720x/-/format/webp/8.jpg</picture>
                 <description>Лазерный хирург, дерматоонколог, ведущий специалист по лазерной хирургии, член РОПРЭХ, участник международных конференций и семинаров
 				</description>
@@ -200,7 +168,7 @@
                 <oldprice>1000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kosmetolog, dermatokosmetolog, dermatolog</set-ids> <!--специальности через запятую-->
+                <set-ids>kosmetolog,dermatolog</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild3836-3333-4465-a666-363266343166/-/resize/720x/-/format/webp/1.png</picture>
                 <description>Врач-дерматокосметолог, ведущий специалист по лазерным и инъекционным методикам, участник международных конференций и семинаров, прошла кадавер-курс в Мальтийском университете, Амбассадор косметического бренда Meder в России, автор статей в журналах.
 				</description>
@@ -230,7 +198,7 @@
                 <oldprice>1000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>dermato-onkolog, khirurg, dermato-onkolog, laser-khirurg</set-ids> <!--специальности через запятую-->
+                <set-ids>onkolog,khirurg</set-ids> <!--специальности через запятую-->
                 <picture>https://optim.tildacdn.com/tild6133-3731-4133-b963-393530306335/-/resize/720x/-/format/webp/photo.jpg</picture>
                 <description>Заведующий отделением лазерной хирургии, лазерный хирург, дерматоонколог участник международных конференций и семинаров
 				</description>
